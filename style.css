@@ -38,6 +38,14 @@ button {
 .show-response {
   visibility: visible;
   opacity: 1;
-  transform: translateX(550px);
+  transform: translateX(0px);
   margin-top: 20px;
+}
+.mousemouve {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: absolute;
+  border: 2px solid pink;
+  transform: translate(-50%, -50%);
 }

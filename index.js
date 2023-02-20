@@ -28,3 +28,12 @@ btn2.addEventListener("click", () => {
   response.classList.add("show-response");
   response.style.background = "green";
 });
+//mouse event in javascript
+
+const mousemouve = document.querySelector(".mousemouve");
+console.log(mousemouve);
+
+window.addEventListener("mousemove", (e) => {
+  mousemouve.style.left = e.pageX + "px";
+  mousemouve.style.top = e.pageY + "px";
+});
