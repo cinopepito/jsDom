@@ -44,8 +44,44 @@ button {
 .mousemouve {
   height: 50px;
   width: 50px;
-  border-radius: 100%;
+  border-radius: 50px;
   position: absolute;
   border: 2px solid pink;
   transform: translate(-50%, -50%);
+}
+#p1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin-bottom: 20px;
+}
+#p2 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+/****media queries larger devices***/
+@media (max-width: 1200px) {
+  #p1 {
+    width: 80%;
+  }
+  #p2 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+  }
+}
+/*******************************/
+
+/***media queries medium device***/
+@media (min-width: 992px) and (max-width:1199px) {
+  #p1 {
+    width: 50%;
+  }
+  #p2 {
+    width: 80px;
+    height: 80px;
+    background-color: green;
+  }
 }
